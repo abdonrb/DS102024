@@ -79,7 +79,7 @@ class Jugador:
         
         for nombre, tamano in tipos_barcos:
             while True:
-                orientacion = input(f"Ingrese la orientación para {nombre} (horizontal/vertical): ").strip().lower()
+                orientacion = input(f"Ingrese la orientacion para {nombre} (horizontal/vertical): ").strip().lower()
                 
                 if orientacion not in ["horizontal", "vertical"]:
                     print("Debe ingresar 'horizontal' o 'vertical'.")
@@ -123,8 +123,6 @@ class Juego:
         oponente = self.jugador2
         while True:
             print(f"\nTurno de {turno.nombre}")
-
-            # Mostrar el tablero del oponente sin revelar las posiciones de sus barcos
             print(f"Tablero de {oponente.nombre}:")
             oponente.tablero.mostrar_tablero(ocultar_barcos=True)
             
@@ -141,8 +139,6 @@ class Juego:
             if oponente.tablero.todos_barcos_hundidos():
                 print(f"{turno.nombre} ha ganado el juego!")
                 break
-            
-            # Cambiar de turno
             turno, oponente = oponente, turno
 
 
