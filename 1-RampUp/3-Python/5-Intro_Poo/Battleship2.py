@@ -143,7 +143,7 @@ class Juego:
 
 
 jugador1 = Jugador("Abdon")
-jugador2 = Jugador("jugador 2")
+jugador2 = Jugador("Juan")
 
 juego = Juego(jugador1, jugador2)
 juego.iniciar_juego()
