@@ -139,7 +139,8 @@ class Juego:
             if oponente.tablero.todos_barcos_hundidos():
                 print(f"{turno.nombre} ha ganado el juego!")
                 break
-            turno, oponente = oponente, turno
+            if resultado != "Golpe" and resultado != "Barco hundido":
+                turno, oponente = oponente, turno
 
 
 jugador1 = Jugador("Abdon")
