@@ -40,6 +40,10 @@ wordcloud = "^1.9.4"
 nltk = "^3.9.1"
 chart-studio = "^1.1.0"
 missingno = "^0.5.2"
+selenium-wire = "^5.1.0"
+websocket-client = "^1.8.0"
+blinker = "^1.9.0"
+webdriver-manager = "^4.0.2"
 
 
 [build-system]
