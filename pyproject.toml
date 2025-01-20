@@ -44,6 +44,7 @@ selenium-wire = "^5.1.0"
 websocket-client = "^1.8.0"
 blinker = "^1.9.0"
 webdriver-manager = "^4.0.2"
+undetected-chromedriver = "^3.5.5"
 
 
 [build-system]
