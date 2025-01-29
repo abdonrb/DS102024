@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+# import pandas as pd
 
 class LinearRegressionBootcamp():
     def __init__(self,normalized=False):
