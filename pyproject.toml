@@ -32,7 +32,6 @@ openpyxl = "^3.1.5"
 pyarrow = "^18.0.0"
 kagglehub = "^0.3.4"
 yfinance = "^0.2.50"
-<<<<<<< HEAD
 folium = "^0.19.2"
 geopandas = "^1.0.1"
 branca = "^0.8.0"
@@ -46,9 +45,7 @@ websocket-client = "^1.8.0"
 blinker = "^1.9.0"
 webdriver-manager = "^4.0.2"
 undetected-chromedriver = "^3.5.5"
-=======
 orjson = "^3.10.14"
->>>>>>> upstream/main
 
 
 [build-system]
