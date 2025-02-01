@@ -47,6 +47,8 @@ webdriver-manager = "^4.0.2"
 undetected-chromedriver = "^3.5.5"
 orjson = "^3.10.14"
 imblearn = "^0.0"
+fastparquet = "^2024.11.0"
+ace-tools = "^0.0"
 
 
 [build-system]
