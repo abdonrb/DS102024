@@ -168,7 +168,7 @@ Prof/
 *.DS_Store
 .DS_Store/
 mnist.json
-
+*.csv
 
 
 Dataset/
