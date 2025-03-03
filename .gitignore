@@ -172,3 +172,5 @@ mnist.json
 
 
 Dataset/
+Dataset/
+*.python-version
