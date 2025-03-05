@@ -174,3 +174,5 @@ mnist.json
 Dataset/
 Dataset/
 *.python-version
+*.python-version
+housing_tuning/
