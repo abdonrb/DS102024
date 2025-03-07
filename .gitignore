@@ -171,7 +171,6 @@ mnist.json
 *.csv
 *.zip
 3-MachineLearning/7-DeepLearning/2-CNN/data
-*.jpg
 
 
 
