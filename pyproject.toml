@@ -55,6 +55,7 @@ skforecast = "^0.14.0"
 astral = "^3.2"
 python-snappy = "^0.7.3"
 shap = "^0.46.0"
+lime = "^0.2.0.1"
 
 
 [build-system]
