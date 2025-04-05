@@ -165,8 +165,6 @@ cython_debug/
 Prof/
 3-DevelopmentTools/
 6-Poo_Proyecto/
-*.DS_Store
-.DS_Store/
 mnist.json
 *.csv
 *.zip
